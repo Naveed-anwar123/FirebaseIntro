@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirebaseIntro</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+
+</resources>

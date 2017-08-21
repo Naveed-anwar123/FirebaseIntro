@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "909347376259",
+    "firebase_url": "https://fir-intro-c090f.firebaseio.com",
+    "project_id": "fir-intro-c090f",
+    "storage_bucket": "fir-intro-c090f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909347376259:android:cb2bc16cc9c2ad14",
+        "android_client_info": {
+          "package_name": "com.example.naveed.firebaseintro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909347376259-3csrfj0907lnb4ejbaektdif0ig7c3eb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.naveed.firebaseintro",
+            "certificate_hash": "cb48da5686c056d478e51a38912cc8761967aedf"
+          }
+        },
+        {
+          "client_id": "909347376259-o4uceedl3dbgvq8dh37jido74ts6ihh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_XjJf3rnuFlwF7Xxry2LZ87L_RXlSVqs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909347376259-o4uceedl3dbgvq8dh37jido74ts6ihh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
