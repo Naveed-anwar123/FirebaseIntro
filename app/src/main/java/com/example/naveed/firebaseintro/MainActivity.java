@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText mEmail, mPassword;
 
     private Button btnSignIn,btnSignOut;
-    private Button OtherActivity;
+    private Button OtherActivity , uploading , save;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
         mPassword = (EditText) findViewById(R.id.editText2);
         btnSignIn = (Button) findViewById(R.id.login);
         btnSignOut = (Button) findViewById(R.id.singup);
+        save = (Button) findViewById(R.id.save);
+        uploading = (Button) findViewById(R.id.uploading);
 
         OtherActivity =(Button) findViewById(R.id.other);
         //btnAddItems = (Button) findViewById(R.id.add_item_screen);
@@ -61,6 +63,23 @@ public class MainActivity extends AppCompatActivity {
         };
 
 
+        uploading.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this , UploadActivity.class);
+                startActivity(i);
+
+            }
+        });
+
+        save.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this , SaveActivity.class);
+                startActivity(i);
+
+            }
+        });
         OtherActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

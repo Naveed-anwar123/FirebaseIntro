@@ -9,10 +9,16 @@ public class User {
     private  String uni;
 
 
+
     public User() {
 
     }
 
+    public User(String fullname , String uni) {
+        this.fullname = fullname;
+        this.uni = uni;
+
+    }
     public String getUni() {
         return uni;
     }
