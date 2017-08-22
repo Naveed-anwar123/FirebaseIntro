@@ -10,11 +10,13 @@
         android:layout_height="wrap_content"
         android:text="Button" />
 
-    <TextView
-        android:id="@+id/db"
-        android:layout_width="316dp"
+    <ListView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="TextView" />
+        android:id="@+id/list"
+        >
+
+    </ListView>
+
 
 </LinearLayout>
